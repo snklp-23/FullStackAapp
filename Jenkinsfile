@@ -7,8 +7,8 @@ pipeline {
         BACKEND_IMAGE    = "${DOCKERHUB_USER}/backend"
         FRONTEND_IMAGE   = "${DOCKERHUB_USER}/frontend"
         ECS_CLUSTER      = "MyAppCluster"
-        BACKEND_SERVICE  = "your-exact-backend-service-name"
-        FRONTEND_SERVICE = "your-exact-frontend-service-name"
+        BACKEND_SERVICE  = "fullstack-BackendService-03nF23yzmzmk"
+        FRONTEND_SERVICE = "fullstack-FrontendService-2qfaSnZeF57T"
         AWS_REGION       = "ap-south-1"
     }
 
