@@ -1,0 +1,21 @@
+# ============================================================
+# 🔧 REPLACE ALL VALUES BELOW WITH YOUR AWS RDS CREDENTIALS
+# ============================================================
+
+# Your RDS endpoint (find in AWS Console > RDS > Databases > your-db > Connectivity)
+DB_HOST=YOUR_RDS_ENDPOINT_HERE
+
+# RDS port (default 3306 for MySQL)
+DB_PORT=3306
+
+# Master username you set when creating the RDS instance
+DB_USER=YOUR_MASTER_USERNAME
+
+# Master password you set when creating the RDS instance
+DB_PASSWORD=YOUR_MASTER_PASSWORD
+
+# Database name (create one in RDS or use 'mysql' as default)
+DB_NAME=appdb
+
+# Backend server port
+PORT=5000
