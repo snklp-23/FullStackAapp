@@ -9,7 +9,7 @@ pipeline {
         ECS_CLUSTER      = "MyAppCluster"
         BACKEND_SERVICE  = "fullstack-BackendService-03nF23yzmzmk"
         FRONTEND_SERVICE = "fullstack-FrontendService-2qfaSnZeF57T"
-        AWS_REGION       = "ap-south-1"
+        AWS_REGION       = "ap-south-2"
     }
 
     stages {
